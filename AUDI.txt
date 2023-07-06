@@ -1,0 +1,17 @@
+Sito Web relativo a una concessionaria di automobili.
+Il brand di questa concessionaria è AUDI.
+
+HOME:
+Dentro il sito web avremo un home page che farà vedere l'ultimo modello AUDI.
+
+VETRINA:
+Ci sarà una pagina vetrina dove ci saranno elencani almeno 3 modelli di automobili, dove dentro ci devono essere a livello descrittivo le caratteristiche di queste 3 automobili:
+cilindrata, alimentazione, cambio e cavalli.
+
+CONTATTI:
+Ci sarà una pagina contatti per contattare la concessionaria.
+Dentro la pagina contatti ci dovrà essere la mappa e un form dove poter fare immediataente delle richeste.
+
+Il footer deve contenere i 3 link, i social, il copyright e il logo dell'azienda.
+
+Il logo deve stare sia nell'header che nel footer.

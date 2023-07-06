@@ -1,0 +1,138 @@
+/* Body */
+body {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+/* Barra di Navigazione */
+.navbar {
+    background-color: white !important;
+}
+
+/* Index - Banner */
+.image-container {
+    position: relative;
+    width: 100%;
+    /* height: 1080px; */ /* Altezza dell'immagine */
+    overflow: hidden;
+}
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image-container .text-container {
+    position: absolute;
+    top: 60px; /* Distanza dal bordo superiore */
+    left: 90px; /* Distanza dal bordo sinistro */
+    color: #fff; /* Colore del testo */
+}
+.image-container h1 {
+    font-size: 30px; /* Dimensione del titolo */
+    margin-bottom: 10px; /* Spazio inferiore del titolo */
+}
+
+/* Fissare la Navbar in alto */
+/* #navbar {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 9999;
+}   */
+
+/* Margine tra gli elementi di naviagazione sulla Navbar */
+.nav-link {
+    margin-right: 40px;
+}
+
+/* Margine a Destra del Logo sulla Navbar */
+.ms-nav {
+    margin-left: 50px;
+}
+/* Margine a Sinistra degli elementi della Navbar (Home, Vetrina, Contatti) */
+.me-nav {
+    margin-right: 80px;
+}
+
+/* Linea separatrice interna alla Navbar */
+.sep-logo {
+    position: absolute;
+    width: 2px;
+    height: 100%; /* Altezza della navbar - 2 volte il padding verticale */
+    top: 0px; /* Padding verticale della navbar */
+    background-color: black;
+    margin-left: 145px;
+}
+
+/* Modelli */
+#vetrina {
+    margin: 100px 0;
+}
+
+/* Contatti */
+#contatti {
+    margin-top: 45px;
+    background-color: black;
+    color: white;
+}
+
+/* Cards dei Contatti */
+.gruppo-contatti {
+    background-color: black !important;
+    color: white;
+    width: 20px;
+    margin-left: 30px;
+    /* border: 1px solid white !important; */
+}
+
+/* Padding del Titolo della Sezione Contatti */
+.padding-title-contact {
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+/* Immagine Sotto ai Contatti */
+.audi-black {
+    margin-top: -8px;
+}
+
+/* Footer */
+footer {
+    margin-top: 100px;
+}
+/* Linea separatrice sul Footer */
+.sep-footer {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/* Dimensione dei Titoli sui Foooter */
+.fs-foot-title {
+    font-size: 20px;
+}
+/* Dimensione degli altri elementi di Testo sul Footer */
+.fs-foot-li {
+    font-size: 14px;
+}
+
+/* Sezione del CopyRight e dei Social sul Footer */
+.copyright-social {
+    margin-bottom: 100px;
+}
+/* Icone Social sul Footer*/
+.fa {
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+}
+/* Margine di Destra icona Facebook */
+.ms-fb {
+    margin-right: 25px;
+}
+/* Logo sul Footer */
+.logo-footer {
+    margin-top: -21px;
+}
